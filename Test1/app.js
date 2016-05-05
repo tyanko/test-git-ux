@@ -43,6 +43,32 @@
         }
     };
 }());
+   
+   app.isOnline = function() {
+        if (!navigator || !navigator.connection) {
+            return true;
+        } else {
+            return navigator.connection.type !== 'none';
+        }
+    };app.isOnline = function() {
+        if (!navigator || !navigator.connection) {
+            return true;
+        } else {
+            return navigator.connection.type !== 'none';
+        }
+    };app.isOnline = function() {
+        if (!navigator || !navigator.connection) {
+            return true;
+        } else {
+            return navigator.connection.type !== 'none';
+        }
+    };app.isOnline = function() {
+        if (!navigator || !navigator.connection) {
+            return true;
+        } else {
+            return navigator.connection.type !== 'none';
+        }
+    };
 
 // START_CUSTOM_CODE_kendoUiMobileApp
 // Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes
